@@ -33,11 +33,11 @@ tag app
 				<div[mx:auto max-width:7xl px:2 px@sm:6 px@lg:8 mt:-22]>
 					<div[pos:relative d:flex h:20 ai:center jc:center]>
 						<a.tab[c:white px:3 py:2 fs:20px mt:3 td:none tt:capitalize fw:bold td@hover:underline d@lt-md:none].grow route-to='/'>
-							"CHAMPIONSHIP PLAYOFFS"
-						<a.tab[c:white px:3 py:2 fs:20px mt:3 td:none tt:capitalize fw:bold td@hover:underline d@lt-md:none].grow route-to='/playoff'>
 							"PLAYOFF DRAW"
 						<a.tab[c:white px:3 py:2 fs:20px mt:3 td:none tt:capitalize fw:bold td@hover:underline d@lt-md:none].grow href='https://docs.google.com/spreadsheets/d/1ve2gkls7wdFut-jesR487JjHnLA3SXRtnoEGl2t2BEo/edit#gid=0'>
 							"PRACTICE SCHEDULE"
+						<a.tab[c:white px:3 py:2 fs:20px mt:3 td:none tt:capitalize fw:bold td@hover:underline d@lt-md:none].grow route-to='/livestream'>
+							"LIVESTREAM"	
 						<div[d:flex ai:center jc:center]>
 							<div[d:flex fls:0 ai:center]>
 								# <img[d:block h:8 w:auto d@lg:none] src=logo alt="Your Company">
@@ -46,15 +46,15 @@ tag app
 							"POOL PLAY RESULTS"
 						<a.tab[c:white px:3 py:2 fs:20px mt:3 td:none tt:capitalize fw:bold td@hover:underline d@lt-md:none].grow route-to='/awards'>
 							"FINAL STANDINGS / AWARDS"
-						<a.tab[c:white px:3 py:2 fs:20px mt:3 td:none tt:capitalize fw:bold td@hover:underline d@lt-md:none].grow route-to='/livestream'>
-							"LIVESTREAM"
+						<a.tab[c:white px:3 py:2 fs:20px mt:3 td:none tt:capitalize fw:bold td@hover:underline d@lt-md:none].grow>
 		<div route='/'>
 			<div[bg:url(./assets/img/volleyball.jpeg),rgba(0, 0, 0, 0.7) background-blend-mode:multiply h:100 w:100% bgs:cover]>
 			<div[d:inline-block ta:center w:100% pos:relative zi:0 t:-150px]>
 				<h1[c:white mb:5px z:0]> "Tournament Draw"
-				<a href="https://docs.google.com/spreadsheets/d/1IgX6eGuwy6TMQ-fdtR86CbE4nzougnf6I9am_yG1kSY/edit?usp=sharing">
+				<a href="https://docs.google.com/spreadsheets/d/1IgX6eGuwy6TMQ-fdtR86CbE4nzougnf6I9am_yG1kSY/edit?usp=sharing#gid=395672007"> # "https://docs.google.com/spreadsheets/d/1IgX6eGuwy6TMQ-fdtR86CbE4nzougnf6I9am_yG1kSY/edit?usp=sharing"
 					<div[d:inline-block m:0,auto c:white mb:50px zi:0 bgc:#1D47A3 bgc@hover:#527ad1 rd:md w:100px]> "Spreadsheet" 
-			<iframe[h:1000px w:100vw d:block m:0 auto mt:-40] src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSAErhsexUK8usrYeU2x2oy2sHCcioP393SdOiJaEQfdDp1GtjfizQCbg6hvLeCaqTOUOsSwrjnPRys/pubhtml?gid=217114146&amp;single=true&amp;widget=true&amp;headers=false">
+			<iframe[h:1000px w:100vw d:block m:0 auto mt:-40] src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSAErhsexUK8usrYeU2x2oy2sHCcioP393SdOiJaEQfdDp1GtjfizQCbg6hvLeCaqTOUOsSwrjnPRys/pubhtml?gid=395672007&amp;single=true&amp;widget=true&amp;headers=false">
+			# https://docs.google.com/spreadsheets/d/e/2PACX-1vSAErhsexUK8usrYeU2x2oy2sHCcioP393SdOiJaEQfdDp1GtjfizQCbg6hvLeCaqTOUOsSwrjnPRys/pubhtml?gid=217114146&amp;single=true&amp;widget=true&amp;headers=false
 
 		<div route='/playoff'>
 			<div[bg:url(./assets/img/volleyball.jpeg),rgba(0, 0, 0, 0.7) background-blend-mode:multiply h:100 w:100% bgs:cover]>
@@ -82,6 +82,9 @@ tag app
 		<div route='/livestream'>
 			<div[bg:url(./assets/img/volleyball.jpeg),rgba(0, 0, 0, 0.7) background-blend-mode:multiply h:100 w:100% bgs:cover]>
 			<h1[d:inline-block ta:center w:100% pos:relative t:-150px c:white]> "Livestream" 
-			<h1[d:inline-block ta:center w:100% pos:relative t:-200px c:white]> "COMING SOON!" 
+			<div[d:inline-block ta:center w:100% pos:relative t:-150px]>
+				<div[d:inline-block m:0,auto c:white mb:50px bgc:#1D47A3 bgc@hover:#527ad1 rd:md w:100px mr:10px]> "Court 1" 
+				<div[d:inline-block m:0,auto c:white mb:50px bgc:#1D47A3 bgc@hover:#527ad1 rd:md w:100px mr:10px]> "Court 2"
+				<div[d:inline-block m:0,auto c:white mb:50px bgc:#1D47A3 bgc@hover:#527ad1 rd:md w:100px]> "Court 3/4"  
 
 imba.mount <app>
