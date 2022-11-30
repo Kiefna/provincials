@@ -46,7 +46,8 @@ tag app
 							"POOL PLAY RESULTS"
 						<a.tab[c:white px:3 py:2 fs:20px mt:3 td:none tt:capitalize fw:bold td@hover:underline d@lt-md:none].grow route-to='/awards'>
 							"FINAL STANDINGS / AWARDS"
-						<a.tab[c:white px:3 py:2 fs:20px mt:3 td:none tt:capitalize fw:bold td@hover:underline d@lt-md:none].grow>
+						<a.tab[c:white px:3 py:2 fs:20px mt:3 td:none tt:capitalize fw:bold td@hover:underline d@lt-md:none].grow href="https://docs.google.com/spreadsheets/d/1JXZpyFSCWWb53Fxl2YfyygDDg54IbZhKzrUnKY7hj3Y/edit?usp=sharing">
+							"TEAM PHOTO SCHEDULE"
 		<div route='/'>
 			<div[bg:url(./assets/img/volleyball.jpeg),rgba(0, 0, 0, 0.7) background-blend-mode:multiply h:100 w:100% bgs:cover]>
 			<div[d:inline-block ta:center w:100% pos:relative zi:0 t:-150px]>
