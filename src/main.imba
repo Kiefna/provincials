@@ -36,7 +36,7 @@ tag app
 							"PLAYOFF DRAW"
 						<a.tab[c:white px:3 py:2 fs:20px mt:3 td:none tt:capitalize fw:bold td@hover:underline d@lt-md:none].grow href='https://docs.google.com/spreadsheets/d/1ve2gkls7wdFut-jesR487JjHnLA3SXRtnoEGl2t2BEo/edit#gid=0'>
 							"PRACTICE SCHEDULE"
-						<a.tab[c:white px:3 py:2 fs:20px mt:3 td:none tt:capitalize fw:bold td@hover:underline d@lt-md:none].grow route-to='/livestream'>
+						<a.tab[c:white px:3 py:2 fs:20px mt:3 td:none tt:capitalize fw:bold td@hover:underline d@lt-md:none].grow route-to='/court-1'>
 							"LIVESTREAM"	
 						<div[d:flex ai:center jc:center]>
 							<div[d:flex fls:0 ai:center]>
